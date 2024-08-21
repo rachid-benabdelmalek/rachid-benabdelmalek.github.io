@@ -1,12 +1,41 @@
 ---
 layout: archive
-title: "Teaching"
+title: ""
 permalink: /teaching/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="container">
+  <header class="text-center">
+      <h1>Teaching Materials</h1>
+      <p class="lead">I have <span class="teaching-count">{{ site.teaching | size }}</span> teaching materials available.</p>
+  </header>
+  <div class="repo-list">
+    {% for post in site.teaching reversed %}
+    <a href="{{ post.url }}" class="one-third-column card text-center">
+        <div class="thumbnail">
+            <div class="card-image geopattern" data-pattern-id="{{ post.title }}">
+                <div class="card-image-cell">
+                    <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="post-thumbnail">
+                </div>
+            </div>
+            <div class="caption">
+                <div class="card-description">
+                    <p class="card-text">{{ post.description }}</p>
+                </div>
+                <div class="card-text">
+                    <span class="meta-info">
+                        <span class="octicon octicon-clock"></span>
+                        <time datetime="{{ post.date }}">{{ post.date | date: '%Y-%m-%d' }}</time>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+</section>
+
+
