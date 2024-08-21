@@ -1,5 +1,47 @@
 # User interface text and labels
 
+# Arabic
+# --------------
+ar: &DEFAULT_AR
+  page                       : "صفحة"
+  pagination_previous        : "السابق"
+  pagination_next            : "التالي"
+  breadcrumb_home_label      : "الرئيسية"
+  breadcrumb_separator       : "/"
+  toc_label                  : "محتويات الصفحة"
+  ext_link_label             : "رابط مباشر"
+  less_than                  : "أقل من"
+  minute_read                : "دقيقة قراءة"
+  share_on_label             : "مشاركة على"
+  meta_label                 :
+  tags_label                 : "الوسوم:"
+  categories_label           : "الفئات:"
+  date_label                 : "تاريخ النشر:"
+  comments_label             : "اترك تعليقاً"
+  comments_title             : "التعليقات"
+  more_label                 : "اقرأ المزيد"
+  related_label              : "قد يعجبك أيضاً"
+  follow_label               : "تابع:"
+  feed_label                 : "خلاصة"
+  powered_by                 : "مشغل بواسطة"
+  website_label              : "الموقع الإلكتروني"
+  email_label                : "البريد الإلكتروني"
+  recent_posts               : "المشاركات الأخيرة"
+  undefined_wpm              : "معلمة words_per_minute غير محددة في _config.yml"
+  comment_form_info          : "لن يتم نشر عنوان بريدك الإلكتروني. الحقول المطلوبة محددة"
+  comment_form_comment_label : "التعليق"
+  comment_form_md_info       : "يدعم Markdown"
+  comment_form_name_label    : "الاسم"
+  comment_form_email_label   : "البريد الإلكتروني"
+  comment_form_website_label : "الموقع الإلكتروني (اختياري)"
+  comment_btn_submit         : "إرسال التعليق"
+  comment_btn_submitted      : "تم الإرسال"
+  comment_success_msg        : "شكراً لتعليقك! سيتم عرضه على الموقع بمجرد الموافقة عليه."
+  comment_error_msg          : "عذراً، حدث خطأ في الإرسال. يرجى التأكد من إكمال جميع الحقول المطلوبة وحاول مرة أخرى."
+  loading_label              : "جارٍ التحميل..."
+ar-AR:
+  <<: *DEFAULT_AR
+  
 # English (default)
 # -----------------
 en: &DEFAULT_EN

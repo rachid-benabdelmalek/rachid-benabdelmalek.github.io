@@ -24,7 +24,7 @@ author:
   avatar           : "BEN_ABDELMALEK_Rachid.jpg"
   name             : "Rachid BEN ABDELMALEK"
   pronouns         : # example: "she/her"  
-  bio              : "I am a Ph.D. student and a software developer."
+  bio              : "Ph.D. student and a software developer."
   location         : "Agadir, Morocco"
   employer         : "Ibn Tofail University"
   uri              : # URL
@@ -287,7 +287,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Africa/Casablanca # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
